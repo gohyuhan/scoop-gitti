@@ -1,6 +1,6 @@
 {
   "version": "0.3.1",
-  "description": "A lightweight terminal UI for git operations",
+  "description": "A lightweight terminal UI for git operations (v0.3.1)",
   "homepage": "https://github.com/gohyuhan/gitti",
   "license": "MIT",
   "architecture": {
@@ -13,16 +13,5 @@
       "hash": "ceae50f3440be55bad2cc8191e537404339dac033cd85394eca4c111c46a16e6"
     }
   },
-  "bin": "gitti.exe",
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/gohyuhan/gitti/releases/download/v$version/gitti-v$version-windows-amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/gohyuhan/gitti/releases/download/v$version/gitti-v$version-windows-arm64.zip"
-      }
-    }
-  }
+  "bin": "gitti.exe"
 }
